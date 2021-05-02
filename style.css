@@ -1,0 +1,68 @@
+
+element.style {
+    width: 55%;
+    max-width: 950px;
+}
+.pwr-sec-mockup.pwr--light .pwr-sec-mockup__mockup--not-fw {
+    width: 100%!important;
+    max-width: none!important;
+}
+@media (max-width: 991px)
+.pwr-sec-mockup__mockup--right {
+    float: none;
+}
+@media (max-width: 991px)
+.pwr-sec-mockup__mockup {
+    margin: 50px auto 0;
+}
+.pwr-sec-mockup__mockup--right {
+    float: right;
+    width: 50vw;
+}
+.pwr-sec-mockup__mockup--not-fw {
+    width: 50%;
+}
+.pwr-sec-mockup__mockup {
+    width: 55vw;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.pwr--light {
+    background-color: #fff;
+    color: #515151;
+}
+body {
+    background-color: #e95555;
+    color: #515151;
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+html, body {
+    font-weight: 400;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+::selection {
+    background: #515151;
+    color: #fff;
+    text-shadow: none;
+}
